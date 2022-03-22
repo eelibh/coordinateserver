@@ -40,7 +40,7 @@ public class CoordinateDatabase {
 
     private CoordinateDatabase() {
         try {
-            open("server\\src\\db\\CoordinateDB.db");
+            open("CoordinateDB.db");
         } catch (SQLException e) {
             e.printStackTrace();
         }
